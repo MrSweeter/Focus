@@ -1,0 +1,69 @@
+name: Focus
+main: com.mrsweeter.focus.Focus
+version: 1.0
+author: MrSweeter
+description: Focus - map PvP by Tagazok_
+
+commands:
+    focusreload:
+        description: Reload plugin !
+        usage: §c/focusreload
+    focus:
+        description: Open configuration menu !
+        usage: §c/focus
+    focusinfo:
+        description: Show settings for the game !
+        usage: §c/focusinfo
+    focusreset:
+        description: Reset settings and create new game
+        usage: §c/focusreset
+    focusinventory:
+        description: See stuff inventory of a player
+        usage: §c/focusinventory <Onlineplayer / close>
+    focuspoint:
+        description: Add points to each player
+        usage: §c/focuspoint <nbPoint>
+    focuschange:
+        description: Load predefine configuration game
+        usage: §c/focuschange <gamemode> <victories> <displayHp (boolean)>
+    focusstart:
+        description: Start a game
+        usage: §c/focusstart
+    focusready:
+        description: Set a player ready to play
+        usage: §c/focusready <Onlineplayer>
+    focushelp:
+        description: See /help focus
+        usage: §c/focushelp
+
+permissions: 
+    focus.reload:
+        description: Allow you to reload plugin
+        default: op
+    focus.configuration:
+        description: Allow you to open configuration menu
+        default: op
+    focus.changegame:
+        description: Allow you to choose predefine configuration game
+        default: op
+    focus.reset:
+        description: Allow you to reset game
+        default: op
+    focus.addpoint:
+        description: Allow you to give point
+        default: op
+    focus.seeinventory:
+        description: Allow you to see Stuff inventory of a player
+        default: op
+    focus.start:
+        description: Allow you to start a game
+        default: op
+    focus.info:
+        description: Allow you to see GameSettings
+        default: true
+    focus.setready:
+        description: Allow you to set a player ready
+        default: op
+    focus.help:
+        description: See Focus help
+        default: true
